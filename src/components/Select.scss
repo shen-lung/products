@@ -1,0 +1,12 @@
+@import '../assets/style/baseStyles.scss';
+
+.select {
+    margin-right: 10px;
+    width: 140px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid $card-header-color;
+    padding-left: 5px;
+}
