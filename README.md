@@ -10,26 +10,30 @@ Store the result of the request and display the information in a grid of cards s
 
 
 # Scripts
-Install dependencies:
+***Install dependencies:***
 * yarn install
 
-Run App:
+***Run App:***
 * yarn start
 
-Run tests:
-Run all test >
+***Run tests***
+
+**Run all test:**
 * yarn test
-Run one suit of test >
+
+**Run one suit of test:**
 * yarn test:suit src/components/Card.test.tsx
 
-Coverage:
-Get coverage for all files >
+***Coverage***
+
+**Get coverage for all files:**
 * yarn coverage
-Get coverage for one suit of test >
+
+**Get coverage for one suit of test:**
 * yarn coverage:suit
 
-Lint:
+***Lint***
 * yarn lint
 
-Clear cache of lint:
+**Clear cache of lint**
 * yarn clear:jest
