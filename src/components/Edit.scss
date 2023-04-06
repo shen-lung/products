@@ -1,0 +1,48 @@
+@import '../assets/style/baseStyles.scss';
+
+@mixin alignContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.editContent {
+    @include alignContent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px $box-shadow-card-color;
+    padding: 20px;
+    position: absolute;
+    height: 306px;
+    width: 264px;
+    background-color: $white;
+    margin-top: 0 !important;
+
+}
+
+.editContent div {
+    margin-top: 10px;
+}
+
+.cardChangeInfo {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid $card-header-color;
+}
+
+.iconEdit {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.iconEditSection {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fieldRequired {
+    color: $red;
+}

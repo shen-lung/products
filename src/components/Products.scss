@@ -1,0 +1,39 @@
+@import '../assets/style/baseStyles.scss';
+
+@mixin alignContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.cardItems {
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arrowUp {
+    cursor: pointer;
+    border: 0;
+    box-shadow: 2px 2px 6px $box-shadow-image-color;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 32px;
+    right: 22px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: $button-color;
+}
+
+.arrowUp:hover {
+    background-color: $button-hover-color;
+}
